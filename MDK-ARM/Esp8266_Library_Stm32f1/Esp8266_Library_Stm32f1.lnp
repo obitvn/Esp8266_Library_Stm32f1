@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"esp8266_library_stm32f1\startup_stm32f103xb.o"
+"esp8266_library_stm32f1\esp8266.o"
+"esp8266_library_stm32f1\obitstring.o"
+"esp8266_library_stm32f1\main.o"
+"esp8266_library_stm32f1\stm32f1xx_it.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_msp.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_gpio_ex.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_tim.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_tim_ex.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_uart.o"
+"esp8266_library_stm32f1\stm32f1xx_hal.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_rcc.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_rcc_ex.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_gpio.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_dma.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_cortex.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_pwr.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_flash.o"
+"esp8266_library_stm32f1\stm32f1xx_hal_flash_ex.o"
+"esp8266_library_stm32f1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Esp8266_Library_Stm32f1\Esp8266_Library_Stm32f1.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Esp8266_Library_Stm32f1.map" -o Esp8266_Library_Stm32f1\Esp8266_Library_Stm32f1.axf
